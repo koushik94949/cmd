@@ -1,0 +1,709 @@
+    1  apt-get install update
+    2  apt-get update
+    3  apt-get install git -y
+    4  apt-get install git
+    5  apt-get instal git
+    6  apt-get install git
+    7  dpkg -l | grep git
+    8  git --version
+    9  git config --global user.name "koushik94949"
+   10  git config --global user.email "koushiksain94949@gmail.com"
+   11  git remote
+   12  mkdir mydir
+   13  cd mydir/
+   14  ls
+   15  vim myfile
+   16  git init
+   17  ls -l
+   18  ls -a
+   19  ls -al
+   20  git add myfile 
+   21  git status
+   22  git commit -m "first commited"
+   23  touch file2 file3 file4 file5 file6 
+   24  ls -al
+   25  git status
+   26  git log
+   27  git add .
+   28  git -m "second commits"
+   29  git commit -m "second commits"
+   30  git log 
+   31  git show eb0e
+   32  vim file2 
+   33  git status
+   34  git commit -a -m "third commit"
+   35  git status
+   36  git log
+   37  git show 8dac
+   38  exit
+   39  sudo apt-get install openjdk-8-jdk
+   40  java -version
+   41  wget -q -O - https://pkg.jenkins.io/debian/jenkins.io.key | sudo apt-key add -
+   42  sudo sh -c 'echo deb http://pkg.jenkins.io/debian-stable binary/ > /etc/apt/sources.list.d/jenkins.list'
+   43  apt-get update
+   44  sudo apt install jenkins
+   45  service jenkins status
+   46  systemctl status jenkins.service 
+   47  netstat -anp | grep 8080
+   48  cd /etc/default/
+   49  ls
+   50  vim jenkins 
+   51  systemctl restart jenkins.service 
+   52  vim jenkins 
+   53  systemctl restart jenkins.service 
+   54  systemctl restart jenkin 
+   55  systemctl restart jenkins 
+   56  systemctl status jenkins 
+   57  vim jenkins 
+   58  systemctl status jenkins 
+   59  systemctl restart jenkins 
+   60  systemctl status jenkins 
+   61  vim jenkins 
+   62  systemctl restart jenkins 
+   63  systemctl status jenkins 
+   64  vim jenkins 
+   65  systemctl restart jenkins 
+   66  systemctl status jenkins 
+   67  vim jenkins 
+   68  systemctl restart jenkins 
+   69  systemctl status jenkins 
+   70  sudo ufw status
+   71  sudo ufw start
+   72  sudo ufw allow 8001
+   73  sudo ufw status
+   74  systemctl restart jenkins 
+   75  sudo ufw status
+   76  cd
+   77  hostname\
+   78  hostname
+   79  exit
+   80  cd /etc/default/
+   81  ls
+   82  vim jenkins
+   83  systemctl restart jenkins.service 
+   84  vim jenkins
+   85  systemctl restart jenkins.service 
+   86  vim jenkins
+   87  systemctl restart jenkins.service 
+   88  cd
+   89  iptables -A INPUT -i ens4 -p tcp --dport 80 -j ACCEPT
+   90  iptables -A INPUT -i ens4 -p tcp --dport 8080 -j ACCEPT
+   91  iptables -A PREROUTING -t nat -i ens4 -p tcp --dport 80 -j REDIRECT --to-port 8080
+   92  vim jenkins
+   93  ls
+   94  cd /etc/default/
+   95  vim jenkins 
+   96  systemctl restart jenkins.service 
+   97  iptables
+   98  iptables -A
+   99  iptables -h
+  100  cd ..
+  101  cd
+  102  cd /var/lib/jenkins/secrets/
+  103  ls
+  104  cat initialAdminPassword 
+  105  cd
+  106  systemctl restart jenkins.service 
+  107  systemctl status jenkins.service 
+  108  hostmane
+  109  hostname
+  110  add user bootcamp
+  111  useradd bootcamp
+  112  su bootcamp 
+  113  passwd bootcamp
+  114  su bootcamp 
+  115  cd /root/
+  116  pwd
+  117  ls
+  118  cd /home/
+  119  ls
+  120  usermod -a -G wheel koushik
+  121  cd
+  122  usermod -a -G wheel koushik
+  123  cd /etc/
+  124  ls
+  125  visudo
+  126  cat sudoers
+  127  sudo adduser koushik sudo
+  128  cd
+  129  su koushik
+  130  ls
+  131  ls -a
+  132  rm -f .ssh
+  133  rmdir -f .ssh
+  134  rmdir -v .ssh
+  135  cd .ssh/
+  136  ls 
+  137  cd
+  138  >.ssh/
+  139  cd .ssh/
+  140  ls
+  141  rm id_rsa.pub,authorized_keys
+  142  rm id_rsa.pub, authorized_keys
+  143  rm id_rsa.pub; authorized_keys
+  144  rm id_rsa.pub;authorized_keys
+  145  rm id_rsa.pub authorized_keys
+  146  ls
+  147  rm id_rsa 
+  148  ls
+  149  cd
+  150  rmdir .ssh/
+  151  ls
+  152  ls -a
+  153  visudo
+  154  sudo su koushik
+  155  cat /etc/passwd
+  156  cd .ssh/
+  157  pwd
+  158  apt-get install ssh
+  159  ls
+  160  cd .ssh/
+  161  cd /root
+  162  cd /.ssh
+  163  cd .ssh/
+  164  cd .ssh
+  165  cd /
+  166  cd .ssh
+  167  ls -a
+  168  apt-get install update
+  169  apt-get update
+  170  cd .ssh
+  171  mkdir .ssh
+  172  ls
+  173  ls -a
+  174  cd
+  175  pwd
+  176  mkdir .ssh
+  177  cd .ssh
+  178  ls 
+  179  ssh-keygen
+  180  ls
+  181  cat id_rsa.pub 
+  182  cd
+  183  ssh root@instance-slave1
+  184  ssh root@10.160.0.3 (nic0)
+  185  ssh root@10.160.0.3
+  186  ssh -vvv 10.160.0.3
+  187  cd
+  188  cd .ssh
+  189  ls
+  190  cat id_rsa.pub 
+  191  ssh -vvv 10.160.0.3
+  192  cd
+  193  ssh 10.160.0.3
+  194  cd .ssh/
+  195  ls
+  196  vim known_hosts 
+  197  vim /etc/hostfiles
+  198  cd
+  199  cd /etc/
+  200  ls
+  201  vim hosts
+  202  vim host.conf 
+  203  cd
+  204  ssh 35.200.147.138 
+  205  cd .ssh/
+  206  ls
+  207  cat id_rsa.pub 
+  208  cd
+  209  ssh 10.160.0.4
+  210  ping 10.160.0.4
+  211  telnet 10.160.0.4
+  212  telnet 10.160.0.4 22
+  213  ssh instance-2
+  214  systemctl restart jenkins.service 
+  215  cd .ssh/
+  216  ls
+  217  cat known_hosts 
+  218  vim known_hosts 
+  219  ls
+  220  cat id_rsa
+  221  cd
+  222  ssh instance-2
+  223  ssh root@instance-2
+  224  ssh 10.160.0.4
+  225  ssh -vvv 10.160.0.4
+  226  ssh -vvv root@10.160.0.4
+  227  telnet 10.160.0.4
+  228  telnet 10.160.0.4 22
+  229  ssh 10.160.0.4
+  230  top
+  231  date >> /tmp/date.txt
+  232  cd /tmp/
+  233  ls
+  234  cd
+  235  cd /var/lib/jenkins/
+  236  las
+  237  la
+  238  cd workspace/
+  239  ls
+  240  cd firstbuld/
+  241  ls
+  242  ls -a
+  243  adduser koushik
+  244  su koushik
+  245  visudo
+  246  su koushik
+  247  usermod -aG sudo koushik
+  248  su - koushik
+  249  visudo
+  250  su - koushik
+  251  cat /etc/passwd
+  252  deluser bootcamp
+  253  deluser koushik
+  254  cat /etc/passwd
+  255  cat /etc/group
+  256  adduser koushik
+  257  usermod -aG sudo koushik
+  258  su - koushik
+  259  su koushik
+  260  visudo
+  261  su - koushik
+  262  sudo su - koushik
+  263  cd /var/lib/jenkins/
+  264  ls
+  265  cd workspace/
+  266  ls
+  267  cd secbuild/
+  268  la
+  269  ls
+  270  cd
+  271  apt-get updae
+  272  apt-get update
+  273  apt-get install     apt-transport-https     ca-certificates     curl     gnupg-agent     software-properties-common
+  274  curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
+  275  add-apt-repository    "deb [arch=amd64] https://download.docker.com/linux/ubuntu \
+  276     $(lsb_release -cs) \
+  277     stable"
+  278  apt-get update
+  279  apt-get install docker-ce
+  280  docker -version
+  281  docker --version
+  282  docker images
+  283  docker ps
+  284  docker ps -a
+  285  exit
+  286  systemctl status jenkins.service 
+  287  iptables -A INPUT -i ens4 -p tcp --dport 80 -j ACCEPT
+  288  iptables -A INPUT -i ens4 -p tcp --dport 8080 -j ACCEPT
+  289  iptables -A PREROUTING -t nat -i ens4 -p tcp --dport 80 -j REDIRECT --to-port 8080
+  290  cd /var/lib/jenkins/
+  291  ls
+  292  cd workspace/
+  293  ls
+  294  cd firstbuld/
+  295  ls
+  296  cd
+  297  docker swarm
+  298  docker swarm --verson
+  299  docker swarm --version
+  300  docker swarm --help
+  301  docker swarm init --advertise-addr 10.160.0.2
+  302  docker node ls
+  303  docker service create --name webservice -p 80:80 nginx
+  304  docker service ls
+  305  docker service ps webservice
+  306  docker ps
+  307  docker service ps webservice
+  308  docker service scale webservice=5
+  309  docker ls
+  310  docker service ls
+  311  docker service ps 
+  312  docker service ps webservice
+  313  docker service ps descrbe
+  314  docker service ps describe
+  315  clear
+  316  docker service ls
+  317  docker service scale webservice=2
+  318  exit
+  319  iptables -A INPUT -i ens4 -p tcp --dport 80 -j ACCEPT
+  320  iptables -A INPUT -i ens4 -p tcp --dport 8080 -j ACCEPT
+  321  iptables -A PREROUTING -t nat -i ens4 -p tcp --dport 80 -j REDIRECT --to-port 8080
+  322  docker service ls
+  323  docker service ps
+  324  docker service ps -a
+  325  docker service ps webservice
+  326  docker service stop webservice
+  327  docker service rm webservice
+  328  docker service ps webservice
+  329  history
+  330  systemctl status jenkins.service 
+  331  systemctl restart jenkins.service 
+  332  cd /var/lib/jenkins/
+  333  ls
+  334  cd workspace/
+  335  ls
+  336  cd javapackage/
+  337  ls
+  338  cd target/
+  339  ls
+  340  cd ..
+  341  ls
+  342  cd src/
+  343  ls
+  344  cd ..
+  345  cd target/
+  346  ls
+  347  cd classes/
+  348  ls
+  349  cd ..
+  350  cd generated-sources/
+  351  ls
+  352  cd annotations/
+  353  ls
+  354  cd ..
+  355  cd
+  356  cd /var/lib/jenkins/workspace/javapackage
+  357  ls
+  358  cd /var/lib/jenkins/workspace/javapackage/src/main/resources
+  359  cd src/
+  360  cd main/
+  361  ls
+  362  cd java/
+  363  ls
+  364  cd ..
+  365  cd pmd
+  366  ls
+  367  cd
+  368  cd /var/lib/jenkins/workspace/javapackage/
+  369  l
+  370  cd target/
+  371  ls
+  372  cd ..
+  373  ls
+  374  cd ..
+  375  ls
+  376  cd javatest/
+  377  ls
+  378  cd target/
+  379  ls
+  380  cd surefire-reports/
+  381  ls
+  382  cd /var/lib/jenkins/workspace/
+  383  ls
+  384  cd javareview/
+  385  ls
+  386  cd target/
+  387  ls
+  388  cd pmd.xml
+  389  cat pmd.xml
+  390  exit
+  391  ssh 10.160.0.3
+  392  sudo apt update 
+  393  sudo apt install software-properties-common
+  394  sudo apt-add-repository --yes --update ppa:ansible/ansible
+  395  sudo apt install ansible
+  396  sudo apt update 
+  397  sudo apt install ansible
+  398  ansible
+  399  ansible --version
+  400  cd /etc/ansible/
+  401  ls
+  402  vim ansible.cfg 
+  403  vim hosts 
+  404  ansible -m ping all
+  405  clear
+  406  ansible -m command -a "apt-get update" all
+  407  ansible -m command -a "uptime" all
+  408  ansible -m command -a "top" all
+  409  top
+  410  htop
+  411  ansible -m command -a "top" all >> cpuutilization
+  412  clear
+  413  ansible -m user -a "name=tcs password=password" all
+  414  cd
+  415  cd /tmp
+  416  vim ansible
+  417  ls
+  418  cd
+  419  ansible -m copy -a "src=/tmp/ansiblefile dest=/tmp/ansiblefile" all
+  420  ansible -m copy -a "src=/tmp/ansiblefile dest=/tmp/" all
+  421  ansible -m copy -a "src=/tmp/ansible dest=/tmp/" all
+  422  ansible -m setup server
+  423  cat /etc/ansible/hosts 
+  424  ansible -m setup servers
+  425  ansible -m setup servers -a "filter=ansible_user"
+  426  ls
+  427  mkdir ansible
+  428  vim playbook1.yaml
+  429  ansible-playbook playbook1.yaml 
+  430  vim playbook1.yaml
+  431  ansible-playbook playbook1.yaml 
+  432  vim playbook1.yaml
+  433  ansible-playbook playbook1.yaml 
+  434  ansible-playbook playbook1.yaml --syntax-check
+  435  ansible-playbook playbook1.yaml trail run
+  436  ansible-playbook playbook1.yaml trailrun
+  437  ansible-playbook playbook1.yaml --check
+  438  clear
+  439  vim playbook2.yaml
+  440  vim test.sh
+  441  vim playbook2.yaml
+  442  ansible-playbook playbook2.yaml --check
+  443  ls
+  444  cat playbook2.yaml 
+  445  vim playbook2.yaml
+  446  ansible-playbook playbook2.yaml --check
+  447  ansible-playbook playbook2.yaml
+  448  vim playbook3.yaml
+  449  ansible-playbook playbook3.yaml --check
+  450  ansible-playbook playbook3.yaml
+  451  cat playbook3.yaml 
+  452  ls
+  453  vim playbook3.yaml 
+  454  ansible-playbook playbook3.yaml --check
+  455  vim playbook3.yaml 
+  456  vim playbook4.yaml 
+  457  ansible-playbook playbook4.yaml --check
+  458  ls
+  459  cat playbook4.yaml 
+  460  cd ansible/
+  461  vim index.html
+  462  cat playbook4.yaml 
+  463  cd
+  464  cat playbook4.yaml 
+  465  ansible-playbook playbook4.yaml --check
+  466  ansible-playbook playbook4.yaml 
+  467  vim playbook4.yaml 
+  468  ansible-playbook playbook4.yaml --check
+  469  ansible-playbook playbook4.yaml 
+  470  ssh root@instance-slave3
+  471  vim playbook4.yaml 
+  472  cd .ssh/
+  473  ls
+  474  cat id_rsa.pub 
+  475  cd
+  476  ssh root@instance-slave3
+  477  systemctl restart sshd
+  478  ssh root@instance-slave3
+  479  ssh 10.160.0.9
+  480  ssh root@35.244.33.155 
+  481  cd ansible/
+  482  mkdir Roles
+  483  cd Roles/
+  484  mkdir apache
+  485  tree .
+  486  apt install tree
+  487  tree .
+  488  cd apache/
+  489  ls
+  490  tree .
+  491  cd ..
+  492  tree .
+  493  ls
+  494  cd
+  495  cd ansible/
+  496  ansible-galaxy install geerlingguy.nginx
+  497  cd
+  498  cd ansible/
+  499  ls
+  500  tree .
+  501  cd Roles/
+  502  ls
+  503  cd apache/
+  504  ls
+  505  ls -a
+  506  vim index.html
+  507  vim index.yaml
+  508  cd
+  509  ls
+  510  cat playbook4.yaml 
+  511  cd ansible/
+  512  ls
+  513  cd Roles/
+  514  cd apache/
+  515  vim index.yaml 
+  516  which ansible
+  517  find ansible
+  518  cd
+  519  cd ansible/
+  520  cd Roles/
+  521  vim role.yaml
+  522  mv role.yaml site.yaml
+  523  ls
+  524  cd apache/
+  525  ls
+  526  mkdir files handlers
+  527  ls
+  528  mkdir tasks vars
+  529  ls
+  530  mv index.yaml tasks/
+  531  ls
+  532  tree /
+  533  tree .
+  534  cd tasks/
+  535  mv index.yaml main.yaml
+  536  ls
+  537  cd
+  538  cd ansible/Roles/
+  539  ls
+  540  cd
+  541  ls
+  542  cat playbook4.yaml 
+  543  cd ansible/
+  544  ls
+  545  cd Roles/
+  546  ls
+  547  cd apache/
+  548  ls
+  549  cd handlers/
+  550  vim main.yaml
+  551  cd
+  552  cd /ansible/Roles/apache/
+  553  cd /ansible/Roles/apache
+  554  cd ansible/Roles/apache
+  555  tree .
+  556  cd tasks
+  557  ls
+  558  cat main.yaml 
+  559  cd ..
+  560  ls
+  561  cd vars/
+  562  vim main.yaml
+  563  cd ..
+  564  tree .
+  565  cd files/
+  566  pwd
+  567  cd 
+  568  cd ansible/
+  569  ls
+  570  mv index.html /root/ansible/Roles/apache/files
+  571  ls
+  572  cd ro
+  573  cd Roles/
+  574  ls
+  575  cd apache/
+  576  tree .
+  577  cd ..
+  578  ls
+  579  cat site.yaml 
+  580  ansible-playbook site.yaml --check
+  581  ls
+  582  vim site.yaml 
+  583  ansible-playbook site.yaml --check
+  584  cd apache/
+  585  ls
+  586  git
+  587  docker
+  588  jenkins --version
+  589  systemctl status jenkins.service 
+  590  ls
+  591  vim playbook1.yaml 
+  592  cd /etc/ansible/
+  593  ls
+  594  cat hosts 
+  595  cd
+  596  ls
+  597  cd mydir/
+  598  ls
+  599  cd
+  600  cd /var/lib/jenkins/
+  601  ls
+  602  cd work
+  603  cd workspace/
+  604  ls
+  605  tree .
+  606  ls
+  607  git remote
+  608  cd
+  609  ls
+  610  exit
+  611  git remote
+  612  ls
+  613  cd mydir/
+  614  ls
+  615  cat file1
+  616  cat file2
+  617  ls -a
+  618  git pull
+  619  git pull remote
+  620  git pull remote origin
+  621  git pull origin
+  622  git pull remote
+  623  git pull
+  624  cd
+  625  docker service ls
+  626  docker service ps
+  627  docker service ps -a
+  628  docker service ps describe
+  629  history
+  630  docker node
+  631  docker node ls
+  632  docker swarm init --advertise-addr 10.160.0.2
+  633  git
+  634  ls
+  635  mkdir casestudy
+  636  ls
+  637  cd casestudy/
+  638  vi Dockerfile
+  639  ls
+  640  cd
+  641  systemctl status jenkins.service 
+  642  iptables -A PREROUTING -t nat -i ens4 -p tcp --dport 80 -j REDIRECT --to-port 8080
+  643  iptables -A INPUT -i ens4 -p tcp --dport 80 -j ACCEPT
+  644  iptables -A INPUT -i ens4 -p tcp --dport 8080 -j ACCEPT
+  645  iptables -A PREROUTING -t nat -i ens4 -p tcp --dport 80 -j REDIRECT --to-port 8080
+  646  exit
+  647  history
+  648  systemctl status jenkins.service 
+  649  cd /etc/default/
+  650  ls
+  651  vi jenkins 
+  652  iptables -t filter -L
+  653  iptables -t filter -F
+  654  systemctl status jenkins.service 
+  655  systemctl restart jenkins.service 
+  656  docker service 
+  657  docker service ls
+  658  docker images
+  659  docker service ps
+  660  docker service ps -a
+  661  docker service ps a
+  662  docker service ps nginix
+  663  docker service ps nginx
+  664  docker node
+  665  docker node ls
+  666  docker rm instance-slave1
+  667  docker rm v7gb
+  668  docker rm j92v
+  669  docker rm instance-1
+  670  docker service ps webservice
+  671  docker service ps describe webservice
+  672  ls
+  673  cd casestudy/
+  674  ls
+  675  vi Dockerfile
+  676  docker build -t test .
+  677  vi Dockerfile
+  678  docker build -t test .
+  679  vi Dockerfile
+  680  docker build -t test .
+  681  cat Dockerfile 
+  682  vi Dockerfile 
+  683  docker build -t test .
+  684  cd
+  685  ipconfig
+  686  ifconfig
+  687  sftp 10.160.0.3
+  688  ssh 10.160.0.3
+  689  ssh root@10.160.0.3
+  690  ls -a
+  691  cd .ssh/
+  692  ls
+  693  cat id_rsa.pub 
+  694  cd
+  695  ssh root@10.160.0.3
+  696  cd /var/lib/jenkins/workspace/
+  697  ls
+  698  cd
+  699  ls
+  700  cd casestudy/
+  701  ls
+  702  cat Dockerfile 
+  703  exit
+  704  history
+  705  ls
+  706  cd mydir/
+  707  ls
+  708  ls -a
+  709  history > cmd.txt
